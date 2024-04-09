@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
           menuItem(4, "Pantalla4", Icons.panorama_horizontal_select_sharp,
               currentPage == DrawerSections.notes ? true : false),
           Divider(),
-          menuItem(5, "Pantalla5", Icons.panorama_wide_angle_select_outlined,
+          menuItem(5, "Pantalla5", Icons.opacity_outlined,
               currentPage == DrawerSections.settings ? true : false),
           menuItem(6, "Pantalla6", Icons.panorama_wide_angle_outlined,
               currentPage == DrawerSections.notifications ? true : false),

@@ -27,11 +27,11 @@ class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
             ),
           ),
           Text(
-            "Rapid Tech",
+            "Nancy Castro",
             style: TextStyle(color: Colors.white, fontSize: 20),
           ),
           Text(
-            "info@rapidtech.dev",
+            "n37castro@gmail.com",
             style: TextStyle(
               color: Colors.grey[200],
               fontSize: 14,

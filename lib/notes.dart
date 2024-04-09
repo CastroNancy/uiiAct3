@@ -14,35 +14,16 @@ class _NotesPageState extends State<NotesPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              decoration: BoxDecoration(
-                color: Color(0xff00ff37),
-              ),
+              color: Color(0xff94f9d9),
+              padding: const EdgeInsets.all(15),
+              margin: const EdgeInsets.only(left: 40, top: 40),
+              width: 250,
+              height: 250,
               child: Text(
-                "Nancy Yazmin Castro Luna ",
-                style: TextStyle(
-                  fontSize: 25,
-                  color: Color(0xff04589A), // Azul medio
-                ),
+                'Nancy Castro',
+                style: TextStyle(fontSize: 32, color: Color(0xFF04589A)),
               ),
-            ),
-            Container(
-              decoration: BoxDecoration(
-                color: Color(0xff00ff37),
-              ),
-            ),
-            Container(
-              decoration: BoxDecoration(
-                color: Color(0xff00ff37),
-              ),
-              child: Text(
-                "Desafio Mat 21308051280331 ",
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Color(
-                      0xff04589A), // Azul medio (mismo color que el texto anterior)
-                ),
-              ),
-            ),
+            )
           ],
         ),
       ),

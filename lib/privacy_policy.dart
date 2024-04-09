@@ -22,14 +22,13 @@ class _PrivacyPolicyPageState extends State<PrivacyPolicyPage> {
               ),
             ),
             Container(
-              color: Color(0xff004261), // Cambiado a un tono de azul claro
-              padding: const EdgeInsets.all(20),
-              margin: const EdgeInsets.only(left: 40, top: 40),
-              child: Text(
-                'Soy un texto',
-                style: TextStyle(
-                    fontSize: 38, color: Colors.blue), // Cambiado a azul rey
+              margin: EdgeInsets.all(30),
+              decoration: BoxDecoration(
+                color: Colors.purpleAccent,
+                shape: BoxShape.circle,
               ),
+              width: 150,
+              height: 150,
             ),
             Container(
               child: Text(
